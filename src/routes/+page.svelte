@@ -9,4 +9,45 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-Hello World
+<div>
+	<div class="content">
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+	</div>
+	<div class="content">
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+	</div>
+	<div class="content">
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+	</div>
+	<div class="content">
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+		Lorem Ipsum add content<br>
+	</div>
+</div>
+
+<style>
+	.content {
+		height: 60dvh;
+		margin-bottom: 50px;
+		background-color: hsl(var(--secondary));
+	}
+</style>

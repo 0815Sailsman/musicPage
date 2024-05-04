@@ -3,11 +3,11 @@
 </script>
 
 <header class="bg-background flex items-center">
-    <a class="headerBlock" href=".">Start</a>
+    <a class="headerBlock" href=".">MUSICTHINGY add icon</a>
     <div class="flex justify-end rightHandHeader">
-        <a class="headerBlock" href=".">Start</a>
-        <a class="headerBlock" href=".">Start</a>
-        <a class="headerBlock" href=".">Start</a>
+        <a class="headerBlock" href=".">JUMP1</a>
+        <a class="headerBlock" href=".">JUMP2</a>
+        <a class="headerBlock" href=".">JUMP3</a>
     </div>
 </header>
 
@@ -20,6 +20,9 @@
         border-bottom: 2px;
         border-style: solid;
         border-color: hsl(var(--primary));
+
+        position: sticky;
+        top: 0px;
 	}
 
     .headerBlock {
